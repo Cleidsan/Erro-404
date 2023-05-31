@@ -1,0 +1,93 @@
+/* Font import Google*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap'); /* font-family: 'Baloo 2', cursive; */
+/* Font import Google */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background: linear-gradient(188.11deg, #000000 6.24%, rgba(255, 0, 0, 0.384) 119.68%);
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hidden {
+    margin-top: 250px;
+    font-size: 20rem;
+}
+
+main {
+    display: none;
+   
+}
+
+
+/* @MEDIA SCREEN */
+
+@media screen and (max-width: 400px) {
+    .hidden {
+        display: none;
+    }
+    main {
+        display: block;
+        width: 390px;
+        height: 672px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        padding: 10px;
+        background-image: url(/assets/img/pngtree-splash-halloween-blood-element-png-image_2326037-removebg-preview\ 1.png);
+    }
+    
+    h1 {
+        position: relative;
+        font-size: 20px;
+        top: 35px;
+        
+    }
+    
+    img .oops {
+        position: absolute;
+        width: 243px;
+        height: 114px;
+        margin-top: -25px;
+    }
+    
+    p {
+        width: 203px;
+        position: absolute;
+        left: 85px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 29px;
+        top: 257px;   
+        color: #E23131;
+    }
+    
+    .figure {
+        position: relative;
+        top: 160px;
+    }
+    
+    button {
+        width: 107px;
+        position: absolute;
+        height: 36px;
+        border-radius: 19px;
+        font-style: normal;
+        left: 265px;
+        top: 625px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        border: none;
+        background: linear-gradient(180deg, #B3211C 0%, #290101 100%);
+    }
+ 
+}
