@@ -1,2 +1,2 @@
-# Tela-De-Error
- Tela de Error(404) Versão Mobile.
+# Tela-De-Erro
+ Tela de Erro(404) Versão Mobile.
